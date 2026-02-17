@@ -20,7 +20,7 @@ Built as a small, real-world example using feature-based structure and clean, re
 3. Run the project
 4. The API will be available at:
 
-https://localhost:5001
+http://localhost:5120
 
 ## 📌 Example Endpoints
 ```http

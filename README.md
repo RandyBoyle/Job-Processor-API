@@ -44,7 +44,13 @@ DELETE /jobs/{id}
   "createdAt": "2026-02-01T15:30:00Z"
 }
 ```
+## 🔐 Authentication (JWT) This API includes a simple JWT authentication example. 
+- POST /login returns a JWT token
+- DELETE endpoints require a valid token
+- GET endpoints are public
 
+This is intentionally minimal to demonstrate securing endpoints in a .NET 8 Minimal API.
+  
 ## 🎯 Purpose
 
 This project is intentionally kept small and simple to demonstrate:

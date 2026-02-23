@@ -34,7 +34,8 @@ namespace JobProcessorAPI.Features.Jobs
                 return removed 
                     ? Results.NoContent() 
                     : Results.NotFound();
-            });
+            })
+                .RequireAuthorization();
         }
     }
 }
